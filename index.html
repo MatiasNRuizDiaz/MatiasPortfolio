@@ -14,6 +14,8 @@
   <link href="https://fonts.googleapis.com/css2?family=Space+Mono&display=swap" rel="stylesheet">
   <!--FONT AWESOME-->
   <script src="https://kit.fontawesome.com/7aa36192fa.js" crossorigin="anonymous"></script>
+  <script src="https://kit.fontawesome.com/c0b3254b0c.js" crossorigin="anonymous"></script>
+
 </head>
 
 <body>
@@ -29,18 +31,25 @@
       </ul>
     </nav>
 
+    <nav class="navMobile">
+      <i class="fa-solid fa-bars"></i>
+      <ul>
+        <li><a href="/index.html" class="active">Inicio</a></li>
+        <li><a href="#aboutMe">Sobre Mi</a></li>
+        <li><a href="#our-projects">Proyectos</a></li>
+        <li><a href="#contact">Contacto</a></li>
+      </ul>
+    </nav>
+
     <div class="welcome">
       <h1>Matias Ruiz Diaz</h1>
       <p>· Front End Developer ·</p>
 
-      <div class="social-medias">
-        <a href="https://www.linkedin.com/in/mat%C3%ADas-ruiz-d%C3%ADaz-0a3273186/" target="_blank"><i
-            class="fab fa-linkedin-in"></i></a>
-
-        <a href="https://github.com/matiasnruizdiaz" target="_blank"><i class="fab fa-github"></i></a>
-
-        <a href="https://instagram.com/matiasruizdiaz01" target="_blank"><i class="fab fa-instagram"></i></a>
-
+      <div class="socialMediasEnd">
+        <a href="#" class="iconBar iconFacebook"><i class="fa-brands fa-facebook-square"></i></a>
+        <a href="#" class="iconBar iconInstagram"><i class="fa-brands fa-instagram"></i></a>
+        <a href="#" class="iconBar iconTwitter"><i class="fa-brands fa-twitter-square"></i></a>
+        <a href="#" class="iconBar iconLinkedin"><i class="fa-brands fa-linkedin"></i></a>
       </div>
       <div class="btn"><a href="#aboutMe" class="skip">Ver Mas</a>
       </div>
@@ -53,7 +62,6 @@
 
     <div class="cardAboutMe">
       <h2 class="title">Sobre Mi</h2>
-      <img src="images/avatar-1.png" alt="" class="imgAvatar">
       <p>Estudiante de la Ingeniería en Informatica en la Universidad Nacional Arturo Jauretche, me desempeño como
         una persona proactiva y en busqueda de una posible salida laboral que permita ampliar mi conocimiento en
         el area IT</p>
@@ -98,43 +106,37 @@
         <div class="workCard">
           <img src="images/adrien-olichon-RCAhiGJsUUE-unsplash.jpg" alt="proyecto uno">
           <div class="hoverWork">
-            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. At in corporis veritatis
-              voluptates! Porro aspernatur soluta minima sed aut officiis!</p>
+            <div class="repo">
+              <a href="#" class="demoText">Demo</a>
+              <a href="#" class="repoText">Repo</a>
+            </div>
           </div>
         </div>
         <div class="workCard">
-          <img src="images/adrien-olichon-RCAhiGJsUUE-unsplash.jpg" alt="proyecto dos">
+          <img src="images/shahadat-rahman-BfrQnKBulYQ-unsplash.jpg" alt="proyecto dos">
           <div class="hoverWork">
-            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. At in corporis veritatis
-              voluptates! Porro aspernatur soluta minima sed aut officiis!</p>
+            <div class="repo">
+              <a href="#" class="demo">Demo</a>
+              <a href="#" class="repo">Repo</a>
+            </div>
           </div>
         </div>
         <div class="workCard">
           <img src="images/max-duzij-qAjJk-un3BI-unsplash.jpg" alt="proyecto tres">
           <div class="hoverWork">
-            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. At in corporis veritatis
-              voluptates! Porro aspernatur soluta minima sed aut officiis!</p>
+            <div class="repo">
+              <a href="#" class="demo">Demo</a>
+              <a href="#" class="repo">Repo</a>
+            </div>
           </div>
         </div>
         <div class="workCard">
           <img src="images/barbara-zandoval-fl3fdbbtj4Q-unsplash.jpg" alt="proyecto cuatro">
           <div class="hoverWork">
-            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. At in corporis veritatis
-              voluptates! Porro aspernatur soluta minima sed aut officiis!</p>
-          </div>
-        </div>
-        <div class="workCard">
-          <img src="images/shahadat-rahman-BfrQnKBulYQ-unsplash.jpg" alt="proyecto cinco">
-          <div class="hoverWork">
-            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. At in corporis veritatis
-              voluptates! Porro aspernatur soluta minima sed aut officiis!</p>
-          </div>
-        </div>
-        <div class="workCard">
-          <img src="images/james-harrison-vpOeXr5wmR4-unsplash.jpg" alt="proyecto seis">
-          <div class="hoverWork">
-            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. At in corporis veritatis
-              voluptates! Porro aspernatur soluta minima sed aut officiis!</p>
+            <div class="repo">
+              <a href="#">Demo</a>
+              <a href="#">Repo</a>
+            </div>
           </div>
         </div>
       </div>
@@ -146,7 +148,7 @@
     <section>
       <form class="formulario">
         <fieldset>
-          
+
           <legend>Contactame</legend>
 
           <div class="contenedor-campos">
@@ -178,19 +180,7 @@
       </form>
 
     </section>
-
-    <div class="social-mediasEnd">
-
-      <a href="https://www.linkedin.com/in/mat%C3%ADas-ruiz-d%C3%ADaz-0a3273186/" target="_blank"><i
-          class="fab fa-linkedin-in"></i></a>
-
-      <a href="https://github.com/matiasnruizdiaz" target="_blank"><i class="fab fa-github"></i></a>
-
-      <a href="https://instagram.com/matiasruizdiaz01" target="_blank"><i class="fab fa-instagram"></i></a>
-
-      <p>&copy; Hecho por Matias Ruiz Diaz 💗 | 2021 </p>
-
-    </div>
+    <p>&copy; Hecho por <a href="#">Matias Ruiz Diaz 💗</a> | 2021 </p>
 
   </footer>
 
