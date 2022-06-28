@@ -6,6 +6,8 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Matías Ruiz Díaz - Full Stack Developer</title>
+  <!--JS-->
+  <script src="index.js"></script>
   <!--CSS-->
   <link rel="stylesheet" href="styles/style.css">
   <!--FAVICON-->
@@ -23,27 +25,33 @@
   <header>
 
     <nav class="nav">
-      <ul>
-        <li><a href="/index.html" class="active">Inicio</a></li>
-        <li><a href="#aboutMe">Sobre Mi</a></li>
-        <li><a href="#our-projects">Proyectos</a></li>
-        <li><a href="#contact">Contacto</a></li>
-      </ul>
-    </nav>
-
-    <nav class="navMobile">
-      <i class="fa-solid fa-bars"></i>
-      <ul>
-        <li><a href="/index.html" class="active">Inicio</a></li>
-        <li><a href="#aboutMe">Sobre Mi</a></li>
-        <li><a href="#our-projects">Proyectos</a></li>
-        <li><a href="#contact">Contacto</a></li>
+      <a href="#" class="logo nav-link">Logo</a>
+      <button class="nav-toggle" aria-label="Abrir menú">
+        <i class="fas fa-bars"></i>
+      </button>
+      <ul class="nav-menu">
+        <li class="nav-menu-item">
+          <a href="#" class="nav-menu-link nav-link">Blog</a>
+        </li>
+        <li class="nav-menu-item">
+          <a href="#" class="nav-menu-link nav-link">Videos</a>
+        </li>
+        <li class="nav-menu-item">
+          <a href="#" class="nav-menu-link nav-link">Sobre mí</a>
+        </li>
+        <li class="nav-menu-item">
+          <a href="#" class="nav-menu-link nav-link nav-menu-link_active"
+            >Contacto</a
+          >
+        </li>
       </ul>
     </nav>
 
     <div class="welcome">
+      <section>
       <h1>Matias Ruiz Diaz</h1>
       <p>· Front End Developer ·</p>
+    </section>
 
       <div class="socialMediasEnd">
         <a href="#" class="iconBar iconFacebook"><i class="fa-brands fa-facebook-square"></i></a>
