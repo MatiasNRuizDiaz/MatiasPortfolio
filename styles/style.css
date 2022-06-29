@@ -185,11 +185,10 @@ header {
 /* MAIN */
 
 .cardAboutMe {
-    width: 80%;
+    width: 70%;
     margin: auto;
     justify-content: center;
     flex-wrap: wrap;
-    border-radius: 2rem;
 }
 
 .title {
@@ -197,7 +196,6 @@ header {
     color: var(--white);
     text-transform: uppercase;
     text-align: justify;
-    margin-top: 10px;
 }
 
 .aboutMe p {
@@ -341,8 +339,8 @@ header {
 /* FORMULARIO */
 
 .formulario {
-    width: min(60rem, 100%);
-    margin: 0 auto;
+    width: min(40rem, 100%);
+    margin:  auto;
     padding: 2rem;
     border-radius: 2rem;
 }
@@ -355,7 +353,6 @@ header {
     text-align: center;
     font-size: var(--textSocialMedias);
     text-transform: uppercase;
-    font-weight: 700;
     margin-bottom: 1rem;
     color: var(--white);
 }
@@ -387,7 +384,7 @@ header {
 }
 
 .campo textarea {
-    height: 10rem;
+    height: 14rem;
 }
 
 .input-text {
